@@ -2,6 +2,7 @@
 #Divide & Conquer
 #Divide the list in smaller lists
 #Sort them individually and then combine in sorted list
+#Time complexity o(log(n))
 def merge_sort(list):
     if len(list) <=1:
         return list
